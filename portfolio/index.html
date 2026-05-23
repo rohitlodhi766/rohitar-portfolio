@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+<link rel="icon" type="image/x-icon" href="assets/images/#">
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/all.css">
+<link href="assets/css/owl.theme.green.min.css" rel="stylesheet">
+<link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+<link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link href="assets/fonts/stylesheet.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/aos.css">
+<script src="assets/js/aos.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+
+
+</head>
+<body>
+  <div class="page-transition transition-black"></div>
+<div class="page-transition transition-yellow"></div>
+  <header class="header" id="navbar-collapse-toggle">
+    <ul id="desktop-nav" class="icon-menu d-none d-lg-block">
+        <li class="icon-box desktop-nav-element active" data-page="home">
+          <i class="fa fa-home"></i>
+          <div>
+            <h2>Home</h2>
+          </div>
+        </li>
+        <li class="icon-box desktop-nav-element" data-page="about" data-aos="fade-down">
+          <i class="fa fa-user"></i>
+          <div>
+            <h2>About</h2>
+          </div>
+        </li>
+        <li class="icon-box desktop-nav-element" data-page="portfolio"  data-aos="fade-up">
+          <i class="fa fa-briefcase"></i>
+          <div>
+            <h2>Portfolio</h2>
+          </div>
+        </li>
+        <li class="icon-box desktop-nav-element" data-page="contact" data-aos="fade-down">
+          <i class="fa fa-envelope-open"></i>
+          <div>
+            <h2>Contact</h2>
+          </div>
+        </li>
+        <!-- <li class="icon-box desktop-nav-element" data-page="blog" data-aos="fade-up">
+          <i class="fa fa-comments"></i>
+          <div>
+            <h2>Blog</h2>
+          </div>
+        </li> -->
+      </ul>
+
+      <nav class="d-block d-lg-none">
+        <div class="inputmobile" id="inputmobile">
+          <div id="trigger-mobile" class="trigger-mobile">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          
+          <ul class="list-unstyled" id="mobile-nav">
+            <div class="mobile-close" id="mobile-close">
+        <span></span>
+        <span></span>
+    </div>
+            <li class="mobile-nav-element home-link active" data-page="home">
+              <div>
+                <i class="fa fa-home"></i>
+                <span>Home</span>
+              </div>
+            </li>
+            <li  class="mobile-nav-element" data-page="about">
+              <div>
+                <i class="fa fa-user"></i>
+                <span>About</span>
+              </div>
+            </li>
+            <li  class="mobile-nav-element" data-page="portfolio">
+              <div>
+                <i class="fa fa-folder-open"></i>
+                <span>Portfolio</span>
+              </div>
+            </li>
+            <li  class="mobile-nav-element" data-page="contact">
+              <div>
+                <i class="fa fa-envelope-open"></i>
+                <span>Contact</span>
+              </div>
+            </li>
+            <!-- <li  class="mobile-nav-element" data-page="blog">
+              <div>
+                <i class="fa fa-comments"></i>
+                <span>Blog</span>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+  </header>
+ <div class="all-page-main"> 
+  <div class="page-hide home-page-main show-page" id="home">
+    <div class="shap-home"></div>
+    <div class="container">
+      <div class="home-page">
+        <div class="home-page-left">
+          <img src="assets/images/my-img.png" alt="">
+        </div>
+        <div class="home-page-right-main">
+          <div class="home-page-right">
+            <h1 class="hero-title">
+              I'm <span class="name">Rohit Singh</span><br>
+              <span id="typing"></span>
+            </h1>
+            <p>I'm Rohit Singh, a web designer & front-end developer crafting clean and user-focused websites.
+Skilled in modern technologies and responsive design.</p>
+<a href="assets/images/cv.pdf" class="button" target="_blank" download>
+
+    <span class="button-text">
+        Download Resume
+    </span>
+
+    <span class="button-icon fa fa-download"></span>
+
+</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+
+
+  <!-- <div class="page-hide about-me-main" >
+    <div class="container">
+      <div class="about-me">
+        <div class="about-me-heading">
+          <h1>Who <span>I Am</span></h1>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  
+<div class="resume-main page-hide" id="about">
+
+    <div class="container">
+
+        <!-- HEADING -->
+
+        <div class="resume-heading">
+             <h1>Who <span>I Am</span></h1>
+            <p>
+                <!-- Education, experience and skills overview. -->
+                  Education, 1.6+ years of experience and skills overview in web design & frontend development.
+            </p>
+        </div>
+
+
+
+        <!-- TABS -->
+
+        <div class="resume-tabs">
+
+            <button class="resume-tab active"
+            data-tab="education">
+                Education
+            </button>
+
+            <button class="resume-tab"
+            data-tab="experience">
+                Experience
+            </button>
+
+            <button class="resume-tab"
+            data-tab="skills">
+                Skills
+            </button>
+
+        </div>
+
+
+
+
+        <!-- EDUCATION -->
+
+        <div class="resume-content active"
+        id="education">
+
+            <div class="resume-card">
+
+                <span class="resume-date">
+                    2020 - 2023
+                </span>
+
+                <h3>Bachelor Degree</h3>
+
+                <h4>Jiwaji University</h4>
+
+                <p>
+                    Completed graduation with focus on computer fundamentals and web technologies.
+                </p>
+
+            </div>
+
+
+
+            <div class="resume-card">
+
+                <span class="resume-date">
+                    2018 - 2020
+                </span>
+
+                <h3>Higher Secondary</h3>
+
+                <h4>MP Board</h4>
+
+                <p>
+                    Completed higher secondary education with strong interest in technology and design.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- EXPERIENCE -->
+
+        <div class="resume-content"
+        id="experience">
+
+            <div class="resume-card">
+
+                 <span class="resume-date">
+            JAN 2025 - PRESENT
+        </span>
+
+        <h3>
+             Web Designer
+        </h3>
+
+        <h4>
+            Amicus Info Tech
+        </h4>
+
+        <p>
+            1+ year experienced Web Designer focused on responsive UI, frontend development, and modern user-friendly websites.
+        </p>
+
+            </div>
+
+
+
+            <div class="resume-card">
+
+              <span class="resume-date">
+            JUNE 2024 - DEC 2024
+        </span>
+
+        <h3>
+            Web Designer
+        </h3>
+
+        <h4>
+            ITS GWALIOR Technologies
+        </h4>
+
+        <p>
+            Designed responsive using HTML, CSS, Bootstrap, JavaScript and modern frontend techniques.
+        </p>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- SKILLS -->
+
+        <!-- <div class="resume-content"
+        >
+
+           
+
+        </div> -->
+
+        
+<div class="skills-slider" id="skills">
+
+    <div class="skills-track">
+
+        <div class="skill-item">
+             <img src="assets/images/html-5.png" alt="">
+            <h3>HTML</h3>
+        </div>
+
+        <div class="skill-item">
+           <img src="assets/images/css-3.png" alt="">
+            <h3>CSS</h3>
+        </div>
+
+        <div class="skill-item">
+           <img src="assets/images/bootstrap.png" alt="">
+            <h3>Bootstrap</h3>
+        </div>
+
+        <div class="skill-item">
+           <img src="assets/images/js-file.png" alt="">
+            <h3>jQuery</h3>
+        </div>
+
+        <div class="skill-item">
+           <img src="assets/images/palette.png" alt="">
+            <h3>Canva</h3>
+        </div>
+        <div class="skill-item">
+           <img src="assets/images/photoshop.png" alt="">
+            <h3>Photoshop</h3>
+        </div>
+
+        <div class="skill-item">
+           <img src="assets/images/figma.png" alt="">
+            <h3>Figma</h3>
+        </div>
+
+
+
+        <!-- DUPLICATE -->
+
+        <div class="skill-item">
+             <img src="assets/images/html-5.png" alt="">
+            <h3>HTML</h3>
+        </div>
+
+        <div class="skill-item">
+           <img src="assets/images/css-3.png" alt="">
+            <h3>CSS</h3>
+        </div>
+
+        <div class="skill-item">
+           <img src="assets/images/bootstrap.png" alt="">
+            <h3>Bootstrap</h3>
+        </div>
+
+        <div class="skill-item">
+           <img src="assets/images/js-file.png" alt="">
+            <h3>jQuery</h3>
+        </div>
+
+        <div class="skill-item">
+           <img src="assets/images/palette.png" alt="">
+            <h3>Canva</h3>
+        </div>
+        <div class="skill-item">
+           <img src="assets/images/photoshop.png" alt="">
+            <h3>Photoshop</h3>
+        </div>
+
+        <div class="skill-item">
+           <img src="assets/images/figma.png" alt="">
+            <h3>Figma</h3>
+        </div>
+    </div>
+
+</div>
+
+    </div>
+
+</div>
+
+
+<div class="blog-main page-hide" id="portfolio">
+
+    <div class="container">
+
+        <div class="blog-heading">
+            <h1>Latest <span>Projects</span></h1>
+
+            <p>
+                Real client websites designed with modern responsive frontend development.
+            </p>
+        </div>
+
+
+        <div class="blog-wrapper">
+
+
+            <!-- BLOG CARD -->
+
+            <div class="blog-box">
+
+                <div class="blog-img">
+                    <img src="assets/images/iota.png" alt="Banner Iota">
+                </div>
+
+                <div class="blog-content">
+
+                    <span>Water Solution</span>
+
+                    <h3>
+                        Iota Water
+                    </h3>
+
+                    <p>
+                        Premium responsive website with modern UI and clean frontend structure.
+                    </p>
+
+                    <a href="https://www.iotawater.com/" target="_blank">
+                        Visit Website
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- BLOG CARD -->
+
+            <div class="blog-box">
+
+                <div class="blog-img">
+                    <img src="assets/images/envisage.png" alt="Banner Envisage">
+                </div>
+
+                <div class="blog-content">
+
+                    <span>Corporate Website</span>
+
+                    <h3>
+                        Envisage Inc
+                    </h3>
+
+                    <p>
+                        Professional corporate website with responsive sections and premium layout.
+                    </p>
+
+                    <a href="https://www.envisageinc.com/" target="_blank">
+                        Visit Website
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- BLOG CARD -->
+
+            <div class="blog-box">
+
+                <div class="blog-img">
+                    <img src="assets/images/nico.png" alt=" Banner Nico">
+                </div>
+
+                <div class="blog-content">
+
+                    <span>Technology Website</span>
+
+                    <h3>
+                        Nico Nano Bubbles
+                    </h3>
+
+                    <p>
+                        Modern industrial website with smooth responsive design and clean UI.
+                    </p>
+
+                    <a href="https://www.niconanobubbles.com/" target="_blank">
+                        Visit Website
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- BLOG CARD -->
+
+<div class="blog-box">
+
+    <div class="blog-img">
+        <img src="assets/images/hsn.png" alt="Banner HSN ">
+    </div>
+
+    <div class="blog-content">
+
+        <span>Interior Website</span>
+
+        <h3>
+            HSN Interiors
+        </h3>
+
+        <p>
+            Premium interior design website with modern responsive frontend layout.
+        </p>
+
+        <a href="https://hsninteriors.com/" target="_blank">
+            Visit Website
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</div>
+
+
+
+<!-- BLOG CARD -->
+
+<div class="blog-box">
+
+    <div class="blog-img">
+        <img src="assets/images/vsr.png" alt="Banner VSR">
+    </div>
+
+    <div class="blog-content">
+
+        <span>Corporate Website</span>
+
+        <h3>
+            VSR
+        </h3>
+
+        <p>
+            Professional business website with clean UI and responsive design.
+        </p>
+
+        <a href="https://www.vsr.in/" target="_blank">
+            Visit Website
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</div>
+
+
+
+<!-- BLOG CARD -->
+
+<div class="blog-box">
+
+    <div class="blog-img">
+        <img src="assets/images/stepup.png" alt=" Banner StepUpUp">
+    </div>
+
+    <div class="blog-content">
+
+        <span>Educational Platform</span>
+
+        <h3>
+            StepUpUp
+        </h3>
+
+        <p>
+            Modern responsive educational platform with smooth frontend experience.
+        </p>
+
+        <a href="https://www.stepupup.com/" target="_blank">
+            Visit Website
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="contact-main page-hide" id="contact">
+
+    <div class="container">
+
+        <!-- HEADING -->
+
+        <div class="contact-heading">
+            <h1>Contact <span>Me</span></h1>
+            <p>
+                Let's build something amazing together.
+            </p>
+        </div>
+
+
+
+        <!-- WRAPPER -->
+
+        <div class="contact-wrapper">
+
+
+
+            <!-- LEFT -->
+
+            <div class="contact-left">
+
+                <div class="contact-img">
+                    <img src="assets/images/contact.jpg" alt="">
+                </div>
+
+
+                <div class="contact-content">
+
+                    <h2>
+                        Rohit Singh
+                    </h2>
+
+                    <span>
+                        Web Designer & Frontend Developer
+                    </span>
+
+                    <p>
+                   Passionate about modern frontend development and responsive web design.
+                    </p>
+
+                 <a href="mailto:aaryavartrohit1000@gmail.com">
+    <i class="fa-solid fa-envelope"></i>
+    aaryavartrohit1000@gmail.com
+</a>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- RIGHT -->
+
+            <div class="contact-right">
+
+                <form id="contactForm">
+
+                    <div class="input-form">
+                      <div class="form-group">
+
+                        <input
+                        type="text"
+                        name="from_name"
+                        placeholder="Your Name"
+                        required>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <input
+                        type="email"
+                        name="from_email"
+                        placeholder="Your Email"
+                        required>
+
+                    </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <input
+                        type="text"
+                        name="subject"
+                        placeholder="Subject"
+                        required>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <textarea
+                        name="message"
+                        placeholder="Your Message"
+                        required></textarea>
+
+                    </div>
+
+
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</div>
+
+
+  
+
+<script src="js/jquery-3.7.1.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+    
+    emailjs.init("YOUR_PUBLIC_KEY");
+
+</script>
+
+<script>
+  AOS.init({
+    duration: 1000, 
+    once: true,     
+  });
+</script>
+
+
+
+<script>
+  $(document).ready(function() {
+    
+    $(".up").hide();
+
+   
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 500) {
+        $(".up").fadeIn(); 
+      } else {
+        $(".up").fadeOut(); 
+      }
+    });
+
+    
+    $(".up").click(function(e) {
+      e.preventDefault();
+      $("html, body").animate({ scrollTop: 0 }, 600);
+      return false;
+    });
+  });
+
+
+  
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/mega-menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.min.js"></script>
+
+
+<script>
+ 
+</script>
+</body>
+
+</html>
